@@ -1,4 +1,4 @@
-![taps](./images/beermap.png)
+<center><img src="./images/beertaps.png"/></center>
 # Beer Recommender: A Content-based and Collaborative Filtering Approach
 ***
 Author: Ashli Dougherty 
