@@ -1,6 +1,8 @@
-<center><img src="./images/beertaps.png"/></center>
-# Beer Recommender: A Content-based and Collaborative Filtering Approach
+<img src=./images/beertaps.png alt='taps' width="800"/>
+
+# Beer Recommendation Systems: A Content and Collaborative Approach
 ***
+
 Author: Ashli Dougherty 
 ***
 # Overview
