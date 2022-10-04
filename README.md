@@ -66,31 +66,34 @@ To use this system, a user puts in their unique reviewerID, the number recommend
 For a more indepth look at my code and other recommendations you can explore my [Collaborative Filtering Notebook](./CollabFiltering.ipynb)
 
 # Conclusions
-
+I am confident that both systems would be successful at providing recommendations for users. Because content based recommenders give results based on item similarity the fact that results are all within the same general beer style was expected. Through the recommender display they can also find new breweries to explore as most recommendations are from breweries that do not make the input beer. For the more experienced drinker, getting more personalized and varied recommendations from a collaborative filtration system might be a better option. The more reviews a user makes, the better the model will be at providing recommendations. 
 
 
 # Next Steps
-
+**General Next Steps** 
+- getting an updated version of data as the initial scraping of BeerAdvocate.com and creation of the dataset was done a few years ago and several new drinks have come on and off the market
+**Content-Based**
+- experimenting with styles using an unsupervised learning model such as clustering and see if recommendations change
+- obtaining missing descriptions for beers in the Tasting Profiles dataset
+**Collaborative Filtering**
+- a way to integrate the two systems (collab and content) so new users would be able - to get a wider variety of recommendations faster
+- seeing if KNearestNeighbors model produces similar recommendations for users
+- developing an app for the collaborative fitration recommendation system
 
 ## Repository Structure 
 ```
-├── [Data]
-│    ├── df_dtm.parquet
-│    ├── df_user.csv
-│    ├── meta5.csv
-│    ├── meta_all.csv
-├── [Images]
-├── [Model]
+├── [app_data]
+│    ├── df_meta_data.csv
+│    ├── model_df.csv
+├── [images]
 ├── .gitignore
-├── CollaborativeFiltering.ipynb
-├── ContentBased.ipynb
-├── DataPrepFinal.ipynb
-├── LICENSE
+├── CollabFilter.ipynb
+├── ContentBasedRecs.ipynb
+├── DataPrep.ipynb
+├── README.md
 ├── Presentation.pdf
 ├── Procfile
-├── README.md
 ├── app.py
 ├── environment.yml
-├── requirements.txt
-└── setup.sh
+└── requirements.txt
 ```
