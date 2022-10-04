@@ -72,9 +72,11 @@ I am confident that both systems would be successful at providing recommendation
 # Next Steps
 **General Next Steps** 
 - getting an updated version of data as the initial scraping of BeerAdvocate.com and creation of the dataset was done a few years ago and several new drinks have come on and off the market
+
 **Content-Based**
 - experimenting with styles using an unsupervised learning model such as clustering and see if recommendations change
 - obtaining missing descriptions for beers in the Tasting Profiles dataset
+
 **Collaborative Filtering**
 - a way to integrate the two systems (collab and content) so new users would be able to get a wider variety of recommendations faster
 - seeing if KNearestNeighbors model produces similar recommendations for users
