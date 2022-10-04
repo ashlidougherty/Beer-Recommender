@@ -47,7 +47,7 @@ More than 57% of all beers have a rating of 4.0 or higher. This was a higher num
 
 # Methods & Models
 ## Content Based
-<img src=./images/content.png alt='content' width="350" align:'center'/>
+<img src=./images/content.png alt='content' width="350" align='center'/>
 Content-based systems use item features to recommend other items similar to what the user likes, based on their previous actions or explicit feedback. Anyone can use this recommendation system without making any prior reviews, they only need to know the name of a beer they already like. Description text was cleaned using Texthero, vectorized with sklearn's TF-IDF vectorizer and combined with a dataframe containing dummied styles and scaled tasting profiles. Recommendations are determined based on distance metrics and the best recommendations returned were made using cosine similarity. As expected the returned beers are within the same general style. Displayed below are examples of returned recommendations. 
 <img src=./images/shiner_recs.png alt='shiner' width="600"/>
 <img src=./images/sierra_recs.png alt='shiner' width="600"/>
@@ -55,7 +55,7 @@ Content-based systems use item features to recommend other items similar to what
 For a more indepth look at my code and other recommendations you can explore my [Content Based Notebook](./ContentBasedRecs.ipynb) or use the system for yourself as a [streamlit app](https://ashlidougherty-beer-recommender-app-ykyxz6.streamlitapp.com/).
 
 ## Collaborative Filtering 
-<img src=./images/collab.png alt='collab' width="600" align:'center'/>
+<img src=./images/collab.png alt='collab' width="600" align='center'/>
 Collaborative filtering uses similarities between users and items simultaneously to provide recommendations. For a user-based system (which is what this one is), an item’s recommendation score for a user is calculated depending on that items’ rating by other similar users. Using the Surprise library, I iterated through several models and retrieved recommendations for several different users before settling on a final model using NMF_GS. As seen below most models (even after being gridsearched) had roughly the same root mean squared error (RMSE) of 0.59.
 <img src=./images/model_eval.png alt='model_eval' width="600"/>
 
