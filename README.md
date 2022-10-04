@@ -76,9 +76,9 @@ I am confident that both systems would be successful at providing recommendation
 - experimenting with styles using an unsupervised learning model such as clustering and see if recommendations change
 - obtaining missing descriptions for beers in the Tasting Profiles dataset
 **Collaborative Filtering**
-- a way to integrate the two systems (collab and content) so new users would be able - to get a wider variety of recommendations faster
+- a way to integrate the two systems (collab and content) so new users would be able to get a wider variety of recommendations faster
 - seeing if KNearestNeighbors model produces similar recommendations for users
-- developing an app for the collaborative fitration recommendation system
+- developing an app for the collaborative filtering recommendation system
 
 ## Repository Structure 
 ```
