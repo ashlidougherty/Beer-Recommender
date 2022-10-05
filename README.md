@@ -92,10 +92,9 @@ I am confident that both systems would be successful at providing recommendation
 ├── CollabFilter.ipynb
 ├── ContentBasedRecs.ipynb
 ├── DataPrep.ipynb
-├── README.md
 ├── Presentation.pdf
-├── Procfile
+├── README.md
 ├── app.py
-├── environment.yml
+├── py39.yml
 └── requirements.txt
 ```
